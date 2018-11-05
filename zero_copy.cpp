@@ -181,6 +181,7 @@ int main(int argc, char *argv[])
   streamLineActor->SetMapper(streamLineMapper.GetPointer());
   streamLineActor->VisibilityOn();
   streamLineActor->GetProperty()->SetColor(namedColors->GetColor3d("Red").GetData());
+  streamLineActor->GetProperty()->SetLineWidth(2);
 
 
   // Create the RenderWindow, Renderer and Actors
